@@ -287,8 +287,8 @@ bool AnaMaker::Init() {
 		100, -40, -30
 	);
 	h2TPCE_Vx_Vy = new TH2F(
-		"h2TPCE_Vz",
-		"h2TPCE_Vz;V_{x} (cm);V_{y} (cm)",
+		"h2TPCE_Vx_Vy",
+		"h2TPCE_Vx_Vy;V_{x} (cm);V_{y} (cm)",
 		90, -1.5, 1.5,
 		90, -1.5, 1.5
 	);
