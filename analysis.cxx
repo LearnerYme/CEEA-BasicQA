@@ -63,7 +63,7 @@ int main(int argc, char** argv) {
 	cout << lg << "Initializing analysis maker" << endl;
 	AnaMaker ana(files, outputName);
 	ana.Init();
-	const Int_t nEv = ana.GetChainEntries();
+	const Int_t nEv = ana.GetAnaEntries();
     cout << lg << "Number of events: " << nEv << endl;
 	for (Int_t iEv=0; iEv<nEv; iEv++) {
 		ana.Make(iEv);

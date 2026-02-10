@@ -43,7 +43,7 @@ class AnaMaker {
 	void Make(Int_t iEv);
 	void Finish();
 
-	Int_t GetChainEntries() { return mNev; }
+	Int_t GetAnaEntries() { return mNev; }
 
 	private:
 	
